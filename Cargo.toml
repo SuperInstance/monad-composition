@@ -1,0 +1,12 @@
+[package]
+name = "monad-composition"
+version = "0.1.0"
+edition = "2024"
+description = "Monad composition patterns for agent pipelines"
+license = "MIT"
+repository = "https://github.com/SuperInstance/monad-composition"
+keywords = ["monad", "composition", "pipeline", "agent"]
+categories = ["rust-patterns"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
